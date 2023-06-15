@@ -27,16 +27,16 @@ body{
     min-width: 50%;
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, 50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, -40%);
 }
 
 .mini-container1, 
 .mini-container2, 
 .mini-container3 {
-    padding: 40px;
+    padding: 36px;
     color: var(--very-light-gray);
 }
 
@@ -65,10 +65,11 @@ h1{
 
 p{
     font-family: var(--body-font);
-    font-size: 14px;
+    font-size: 13px;
     color: var(--transparent-white);
-    letter-spacing: 0.35px;
+    letter-spacing: 0.4px;
     line-height: 22px;
+    margin-top: 30px;
 }
 
 .mini-container1 .learnmore, 
@@ -81,7 +82,7 @@ p{
     padding: 10px;
     font-size: 14px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .mini-container1 .learnmore{
